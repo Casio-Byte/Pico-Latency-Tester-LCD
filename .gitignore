@@ -1,0 +1,4 @@
+__pycache__/
+*.mpy
+!compiled/*.mpy
+tests/out/
