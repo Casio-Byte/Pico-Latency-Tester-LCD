@@ -50,5 +50,4 @@ scope, flicker test, sensor view, history, settings saved on the board.
 
 ---
 
-Not yet run on real hardware - it compiles for the RP2040 and is tested against
-a simulated board. Results and issues welcome.
+Tested and confirmed working on real hardware.

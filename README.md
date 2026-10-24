@@ -13,8 +13,8 @@ shows the results on its own display.
 | ![Home](images/screens/01_home.png) | ![Running](images/screens/03_running.png) | ![Median](images/screens/04_results_median.png) |
 | ![Histogram](images/screens/05_results_histogram.png) | ![Every click](images/screens/06_results_every_click.png) | ![Menu](images/screens/08_menu.png) |
 
-> **Status:** compiled for the RP2040 and tested end to end on a simulated
-> board (see [Testing](#testing)). Not yet run on real hardware.
+> **Status: tested and working on real hardware.** It was also tested end to
+> end on a simulated board during development (see [Testing](#testing)).
 
 ## Hardware
 
@@ -180,6 +180,11 @@ tests/sim_board.py   runs lt_app.py on a simulated board, saves screenshots
 ```
 
 ## Testing
+
+**On real hardware:** built, tested and confirmed working on the Waveshare
+RP2040-LCD-0.96 with the ALS-PT19 sensor and button.
+
+**During development:**
 
 `lt_app.py` talks to the hardware only through `lt_hw`, so
 `tests/sim_board.py` can run it unchanged in desktop Python against a fake
